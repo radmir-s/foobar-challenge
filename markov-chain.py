@@ -94,7 +94,7 @@ def solution(m):
     trans_ind = [i for i in range(len(m)) if not s[i].p]
 
     if 0 in trans_ind:
-        return [1] + [0] * (len(trans_ind)-1) + [1]
+        return [1] + [0] * (len(trans_ind) - 1) + [1]
 
     A = [s[i].sub(rec_ind) for i in rec_ind]
     Q = [s[i].sub(trans_ind) for i in rec_ind]
