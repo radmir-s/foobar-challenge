@@ -3,6 +3,8 @@
 /workspace.xml
 /__pycache__
 /.idea
+.idea/foobar.iml
+.idea/misc.xml
 /.ipynb_checkpoints
 jupyter.ipynb
 *.iml

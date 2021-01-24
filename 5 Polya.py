@@ -1,7 +1,7 @@
 from fractions import Fraction as fr
 
 
-def solution(h, w, s):
+def solution(w, h, s):
     def partition(n, c=(), k=1):
         if n == 0:
             yield c
@@ -47,4 +47,3 @@ def solution(h, w, s):
 
 if __name__ == "__main__":
     print(solution(2, 3, 4))
-
