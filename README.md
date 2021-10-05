@@ -1,1 +1,2 @@
-This project contains foobar challenge solution codes
+#foobar-challenge
+This repository contains solutions of foobar challenge problems I had.
